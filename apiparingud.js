@@ -100,7 +100,7 @@ async function handleFormSubmit(event) {
 }
 
 async function listiraamatud() {
-	const responseData = await getDataAsJson("https://projectpraks12hs9raamatud.azurewebsites.net/raamatud");
+	const responseData = await getDataAsJson("https://projectpraks12hs9raamatud.azurewebsites.net/raamatud/");
 
     const resultElement = document.getElementById("raamatud_result");
 
